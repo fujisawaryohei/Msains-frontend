@@ -2,7 +2,7 @@
   <div class="main">
       <img id="matching-image" src="../assets/images/ikuta.jpg">
       <div class="self-intro">
-        <p>名前 User 学年３年</p>
+        <p>名前 生田絵梨花 学年３年</p>
         <p>学部/学科 経済学部 国際経済学科</p>
       </div>
     </div>
@@ -12,35 +12,41 @@
 </script>
 
 <style scoped>
-#matching-image {
-  border-radius:50%;
-  width:500px;
-  height:500px;
-  display:block;
-  margin:auto;
-  padding-top:50px;
-}
-
-.self-intro {
-  text-align:center;
-  margin-top:30px;
-  font-weight:bold;
-}
-
-.self-intro  p {
-  font-size:1rem;
-}
-
-.icon-button {
-  padding-top:30px;
-}
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 1200px){
   #matching-image {
     border-radius:50%;
-    width:300px;
-    height:400px;
-    display:block;
-    margin:auto;
+    width: 27rem;
+    height: 30rem;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .self-intro {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+  .self-intro  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #matching-image {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .self-intro {
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: bold;
   }
 }
 </style>
