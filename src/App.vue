@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <Header />
-    <SideNav/>
-    <v-content>
+    <v-content style="background-color:#D1EBD0;">
+      <SideNav></SideNav>
       <router-view/>
     </v-content>
   </v-app>
