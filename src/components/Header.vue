@@ -34,7 +34,8 @@ export default {
 
 
 <style scoped>
-@media screen and (min-width: 1200px){
+/* pc ver */
+@media screen and (min-width: 960px) and (max-width: 1500px){
   .default-header {
     display: flex;
     justify-content: space-between;
@@ -45,15 +46,15 @@ export default {
     display: none;
   }
 
+  .header-left {
+    display :flex;
+    align-items: center;
+  }
+
   .header-left h2 {
     color:#6A6363;
     margin-top: 15px;
     margin-left: 30px;
-  }
-
-  .header-left {
-    display :flex;
-    align-items: center;
   }
 
   .header-left ul {
@@ -91,38 +92,46 @@ export default {
     margin-right: 20px;
   } 
 }
-/* ipad responsive */
-@media screen and(max-width: 1179px){
+
+/* ipad ver */
+@media screen and (min-width: 560px) and (max-width: 959px){
   .default-header {
     background-color: #88CE6E;
+    height: 4rem;
   }
 
   .header-left {
     display: flex;
     justify-content: space-around;
+    margin-right: 15rem;
+    margin-top: 1.0rem;
+  }
+
+  .heade-left .sideNavBtn {
+    size: 3rem;
   }
   
   .header-left  ul {
     display: none;
   }
+  
+  .header-right {
+    display: none;
+  }
 }
 
-/* smart phone responsive */
-@media screen and (max-width: 479px) {
+/* smart phone ver */
+@media screen and (min-width: 320px) and (max-width: 559px) {
   .default-header {
     background-color: #88CE6E;
-    height: 4em;
+    height: 4rem;
   }
 
   .header-left {
     display: flex;
     justify-content: space-around;
-    margin-right: 8rem;
-  }
-
-  .header-left h2 {
-    padding-top: 15px;
-    padding-left: 2.5em;
+    margin-right: 6.0rem;
+    margin-top: 1rem;
   }
 
   .header-left ul {
@@ -132,12 +141,5 @@ export default {
   .header-right {
     display: none;
   }
-
-  .default-header .sideNavBtn {
-    display: block;
-    padding-top: 20px;
-    padding-left: 2em;
-  }
 }
-
 </style>

@@ -12,7 +12,7 @@
 </script>
 
 <style scoped>
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px){
   #matching-image {
     border-radius:50%;
     width: 27rem;
@@ -33,6 +33,29 @@
   }
 }
 
+/* ipad ver */
+@media screen and (min-width: 560px) and (max-width: 959px){
+  #matching-image {
+    border-radius: 50%;
+    width: 35rem;
+    height: 35rem;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .self-intro {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+  .self-intro p {
+    font-size: 1.5rem;
+  }
+}
+
+/* smart phone ver */
 @media screen and (max-width: 480px) {
   #matching-image {
     border-radius: 50%;
@@ -48,5 +71,10 @@
     margin-top: 4rem;
     font-weight: bold;
   }
+}
+
+/* smart phone lay down ver */
+@media screen and (max-width: 559px) and (orientation: landscape){
+
 }
 </style>
