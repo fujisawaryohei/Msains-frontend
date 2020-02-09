@@ -3,16 +3,20 @@
       <div class="header-left">
         <v-app-bar-nav-icon class="sideNavBtn" color="black" dark @click.stop="sideNavTrigger"></v-app-bar-nav-icon>
         <h2>Msains</h2>
-        <ul>
+        <ul if="authentication_token">
           <li><a href="">学内掲示板</a></li>
           <li><a href="">TIMELINE</a></li>
           <li><a href="">時間割検索</a></li>
           <li><a href="">通知</a></li>
         </ul>
+        <ul>
+          <li>新規登録</li>
+          <li>ログイン</li>
+        </ul>
       </div>
       <div class="header-right">
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ユーザー検索">
-        <a href=""><img src="../assets/images/ikuta.jpg"></a>
+        <a href=""><img src="../assets/images/default.jpeg"></a>
       </div>
     </header>
 </template>
@@ -21,7 +25,8 @@
 export default {
   data(){
     return {
-      drawer: false
+      drawer: false,
+      authentication_token: false 
     }
   },
   methods: {

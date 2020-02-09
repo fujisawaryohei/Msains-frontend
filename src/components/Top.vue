@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-      <img id="matching-image" src="../assets/images/ikuta.jpg">
+      <img id="matching-image" src="../assets/images/default.jpeg">
       <div class="self-intro">
         <p>名前 生田絵梨花 学年３年</p>
         <p>学部/学科 経済学部 国際経済学科</p>
