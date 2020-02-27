@@ -18,7 +18,7 @@
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ユーザー検索">
         <a href=""><img src="../assets/images/default.jpeg"></a>
       </div>
-    </header>
+  </header>
 </template>
 
 <script>
@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
 /* pc ver */
-@media screen and (min-width: 960px) and (max-width: 1500px){
+@media screen and (min-width: 1024px){
   .default-header {
     display: flex;
     justify-content: space-between;
@@ -125,8 +125,8 @@ export default {
   }
 }
 
-/* smart phone ver */
-@media screen and (min-width: 320px) and (max-width: 559px) {
+/* smart phone 縦ver */
+@media screen and (max-width: 480px) {
   .default-header {
     background-color: #88CE6E;
     height: 4rem;
@@ -145,6 +145,13 @@ export default {
 
   .header-right {
     display: none;
+  }
+}
+
+/* smart phone 横 ver*/
+@media screen and (max-width: 896px) and (orientation: landscape){
+  #default-header {
+    width: 100vw;
   }
 }
 </style>

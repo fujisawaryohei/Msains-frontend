@@ -55,7 +55,7 @@
   }
 }
 
-/* smart phone ver */
+/* smart phone 縦 ver*/
 @media screen and (max-width: 480px) {
   #matching-image {
     border-radius: 50%;
@@ -71,10 +71,5 @@
     margin-top: 4rem;
     font-weight: bold;
   }
-}
-
-/* smart phone lay down ver */
-@media screen and (max-width: 559px) and (orientation: landscape){
-
 }
 </style>
