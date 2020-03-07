@@ -13,8 +13,8 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    sideNavAction({ commit }){
-      commit("sideNavMutation");
+    sideNavAction(context){
+      context.commit("sideNavMutation");
     }
   }
 })
