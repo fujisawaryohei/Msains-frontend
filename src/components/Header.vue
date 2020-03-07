@@ -16,7 +16,7 @@
       </div>
       <div class="header-right">
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ユーザー検索">
-        <a href=""><img src="../assets/images/default.jpeg"></a>
+        <a href=""><img src="../assets/images/ikuta.jpg"></a>
       </div>
   </header>
 </template>

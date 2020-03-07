@@ -2,8 +2,8 @@
   <v-app>
     <Header />
     <v-content style="background-color:#D1EBD0;">
-      <SideNav></SideNav>
-      <router-view/>
+      <SideNav />
+      <router-view />
     </v-content>
   </v-app>
 </template>
@@ -19,7 +19,11 @@ export default {
     SideNav
   },
   data: () => ({
-    //
   }),
 };
 </script>
+
+<style scopend>
+html {
+  font-size: 32px;
+}

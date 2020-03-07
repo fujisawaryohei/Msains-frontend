@@ -1,11 +1,11 @@
 <template>
   <div class="main">
-      <img id="matching-image" src="../assets/images/default.jpeg">
+      <img id="matching-image" src="../assets/images/ikuta.jpg">
       <div class="self-intro">
         <p>名前 生田絵梨花 学年３年</p>
         <p>学部/学科 経済学部 国際経済学科</p>
       </div>
-    </div>
+  </div>
 </template>
 
 <script>
@@ -14,8 +14,8 @@
 <style scoped>
 @media screen and (min-width: 1024px){
   #matching-image {
-    border-radius:50%;
-    width: 27rem;
+    border-radius: 50%;
+    width: 30rem;
     height: 30rem;
     display: block;
     margin: auto;
