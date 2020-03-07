@@ -16,14 +16,7 @@ export default {
   name: 'App',
   components: {
     Header,
-    SideNav
-  },
-  data: () => ({
-  }),
+    SideNav,
+  }
 };
 </script>
-
-<style scopend>
-html {
-  font-size: 32px;
-}

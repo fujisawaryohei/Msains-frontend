@@ -8,10 +8,7 @@
   </div>
 </template>
 
-<script>
-</script>
-
-<style scoped>
+<style scoped lang="scss">
 @media screen and (min-width: 1024px){
   #matching-image {
     border-radius: 50%;
@@ -26,10 +23,10 @@
     text-align: center;
     margin-top: 30px;
     font-weight: bold;
-  }
 
-  .self-intro  p {
-    font-size: 1rem;
+    p {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -48,10 +45,10 @@
     text-align: center;
     margin-top: 30px;
     font-weight: bold;
-  }
-
-  .self-intro p {
-    font-size: 1.5rem;
+    
+    p {
+      font-size: 1.5rem;
+    }
   }
 }
 
